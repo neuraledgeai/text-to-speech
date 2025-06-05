@@ -22,5 +22,5 @@ if st.button("🔊 Generate and Play Audio"):
 
     # Wrap in BytesIO and play
     audio_buffer = BytesIO(audio_bytes)
-    st.audio(audio_buffer, format="audio/mp3")
+    st.audio(audio_buffer) # format="audio/mp3")
 
