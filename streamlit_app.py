@@ -13,7 +13,7 @@ if st.button("🔊 Generate and Play Audio"):
     audio_gen = elevenlabs.text_to_speech.convert(
         text=text,
         voice_id="nPczCjzI2devNBz1zQrb",
-        model_id="eleven_multilingual_v2",
+        model_id="eleven_flash_v2.5",
         output_format="mp3_44100_128"
     )
 
