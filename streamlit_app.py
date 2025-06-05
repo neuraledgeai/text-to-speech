@@ -3,7 +3,7 @@ from elevenlabs.client import ElevenLabs
 from io import BytesIO
 
 # Initialize ElevenLabs client
-elevenlabs = ElevenLabs(api_key="your_api_key_here")
+elevenlabs = ElevenLabs(api_key="sk_70c410217f76f261a50a293d37e29b51c17157a7317b9ff1")
 
 # UI: Text input
 text = st.text_input("Enter text to speak", "The first move is what sets everything in motion.")
